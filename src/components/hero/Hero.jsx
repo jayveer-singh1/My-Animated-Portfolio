@@ -113,7 +113,7 @@ const Hero = () => {
                     animate="animate"
                     className="follow"
                 >
-                    <motion.a variants={followVariants} href="/">
+                    <motion.a variants={followVariants} href="https://www.instagram.com/jayveer_singh_93?igsh=MXJ3MmxsbDhxYWt2MQ==">
                         <img src="/instagram.png" alt="" />
                     </motion.a>
                     <motion.a variants={followVariants} href="/">
@@ -184,20 +184,23 @@ const Hero = () => {
                             </svg>
                         </a>
 
-                        <div className="arrow">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 24 24"
-                                width="50"
-                                height="50"
-                                fill="none"
-                                stroke="black"
-                                strokeWidth="2"
-                            >
-                                <line x1="6" y1="18" x2="18" y2="6" />
-                                <polyline points="9 6 18 6 18 15" />
-                            </svg>
-                        </div>
+                        <a href="https://linktr.ee/jayveersingh1?utm_source=linktree_admin_share" target="_blank">
+                            <div className="arrow">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    width="50"
+                                    height="50"
+                                    fill="none"
+                                    stroke="black"
+                                    strokeWidth="2"
+                                >
+                                    <line x1="6" y1="18" x2="18" y2="6" />
+                                    <polyline points="9 6 18 6 18 15" />
+                                </svg>
+                            </div>
+                        </a>
+
                     </motion.div>
                 </motion.a>
             </div>
