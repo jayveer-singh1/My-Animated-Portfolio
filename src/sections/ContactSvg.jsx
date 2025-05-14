@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import gsap from "gsap";
+gsap.ticker.lagSmoothing(1000, 16);
 
 const ContactSvg = () => {
   return (

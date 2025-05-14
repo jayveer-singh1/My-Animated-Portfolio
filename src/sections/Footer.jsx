@@ -1,4 +1,6 @@
 import { socialImgs } from "../constants";
+import gsap from "gsap";
+gsap.ticker.lagSmoothing(1000, 16);
 
 const Footer = () => {
   return (

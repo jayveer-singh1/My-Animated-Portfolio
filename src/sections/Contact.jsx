@@ -3,6 +3,8 @@ import { useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import ContactSvg from "./ContactSvg";
 import TitleHeader from "../components/TitleHeader";
+import gsap from "gsap";
+gsap.ticker.lagSmoothing(1000, 16);
 
 const listVariant = {
   initial: {

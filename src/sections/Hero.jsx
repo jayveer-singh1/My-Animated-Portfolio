@@ -3,8 +3,8 @@ import { Canvas } from "@react-three/fiber";
 import React, { Suspense } from "react";
 import gsap from "gsap";
 import JayveerImage from "../../public/images/hero.png"
+gsap.ticker.lagSmoothing(1000, 16);
 
-// import Shape from "../components/Shape"
 import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";

@@ -2,6 +2,8 @@ import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+gsap.ticker.lagSmoothing(1000, 16);
+
 
 gsap.registerPlugin(ScrollTrigger);
 

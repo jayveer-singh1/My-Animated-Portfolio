@@ -1,4 +1,6 @@
 import { abilities } from "../constants";
+import gsap from "gsap";
+gsap.ticker.lagSmoothing(1000, 16);
 
 const FeatureCards = () => (
   <div className="w-full padding-x-lg">

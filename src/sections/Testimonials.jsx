@@ -1,6 +1,8 @@
 import { testimonials } from "../constants";
 import TitleHeader from "../components/TitleHeader";
 import GlowCard from "../components/GlowCard";
+import gsap from "gsap";
+gsap.ticker.lagSmoothing(1000, 16);
 
 const Testimonials = () => {
   return (

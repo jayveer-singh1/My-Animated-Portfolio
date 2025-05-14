@@ -1,5 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+gsap.ticker.lagSmoothing(1000, 16);
+
 
 import TitleHeader from "../components/TitleHeader";
 import TechIconCardExperience from "../components/models/tech_logos/TechIconCardExperience";
