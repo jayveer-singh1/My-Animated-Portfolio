@@ -107,15 +107,16 @@ section {
 
   #hero-my-image {
     @apply absolute z-20;
-    width: auto;
-    height: 80%;
+    width: 550px;
+    height: 550px;
     object-fit: cover;
     object-position: top;
-    /* 👈 This line makes the image show from the top */
-    top: 10%;
-    left: 25%;
-    /* border-radius: 40%; */
+    top: 120px;
+    right: 150px;
+    background-color: #D9ECFF;
+    border-radius: 50%;
     scale: 0.9;
+    border: 2px solid white;
   }
 
 
@@ -501,88 +502,127 @@ section {
 
 /* Contact section */
 .contact {
-    height: 100%;
-    display: flex;
-    gap: 100px;
+  height: 100%;
+  display: flex;
+  gap: 100px;
+}
+
+.cSection {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cSection:last-child {
+  background-color: rgba(2, 2, 45, 0.187);
+  margin: 50px 0px;
+  padding: 50px;
+  border-radius: 50% 0px;
+}
+
+form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgba(2, 2, 45, 0.066);
+  padding: 50px;
+  border-radius: 50px;
+}
+
+input,
+textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+}
+
+.formItem {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-size: 13px;
+}
+
+.formButton {
+  background-color: #dd4c62;
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+  .form {
+    width: 100%;
   }
-  
+
+  #hero-my-image {
+    @apply absolute z-20;
+    width: 400px;
+    height: 400px;
+    top: -80px;
+    right: 50px;
+    scale: 0.9;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contact {
+    gap: 30px;
+  }
+
+  #hero-my-image {
+    @apply absolute z-20;
+    width: 250px;
+    height: 250px;
+    top: 350px;
+    right: 250px;
+    scale: 0.9;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+  }
+
   .cSection {
-    width: 50%;
-    height: 100%;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
   }
-  
+
+  .cSection:first-child {
+    height: 70%;
+  }
+
   .cSection:last-child {
-    background-color: rgba(2, 2, 45, 0.187);
-    margin: 50px 0px;
-    padding: 50px;
-    border-radius: 50% 0px;
+    height: 30%;
   }
-  
-  form {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    background-color: rgba(2, 2, 45, 0.066);
-    padding: 50px;
-    border-radius: 50px;
+
+  #hero-my-image {
+    @apply absolute z-20;
+    width: 300px;
+    height: 300px;
+    top: 205px;
+    right: 150px;
+    scale: 0.9;
   }
-  
-  input,
-  textarea {
-    padding: 12px;
-    border: none;
-    border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+  #hero-my-image {
+    @apply absolute z-20;
+    width: 300px;
+    height: 300px;
+    top: 218px;
+    right: 50px;
+    scale: 0.9;
   }
-  
-  .formItem {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  label {
-    font-size: 13px;
-  }
-  
-  .formButton {
-    background-color: #dd4c62;
-    color: white;
-    padding: 20px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-  }
-  
-  @media (max-width: 1280px) {
-    .form {
-      width: 100%;
-    }
-  }
-  
-  @media (max-width: 1024px) {
-    .contact {
-      gap: 30px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .contact {
-      flex-direction: column;
-    }
-  
-    .cSection {
-      width: 100%;
-    }
-  
-    .cSection:first-child {
-      height: 70%;
-    }
-    .cSection:last-child {
-      height: 30%;
-    }
-  }
+}

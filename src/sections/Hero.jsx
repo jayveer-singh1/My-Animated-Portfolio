@@ -1,6 +1,4 @@
 import { useGSAP } from "@gsap/react";
-import { Canvas } from "@react-three/fiber";
-import React, { Suspense } from "react";
 import gsap from "gsap";
 import JayveerImage from "../../public/images/hero.png"
 gsap.ticker.lagSmoothing(1000, 16);
@@ -8,7 +6,6 @@ gsap.ticker.lagSmoothing(1000, 16);
 import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";
-import HeroExperience from "../components/models/hero_models/HeroExperience";
 
 const Hero = () => {
   useGSAP(() => {
@@ -71,7 +68,6 @@ const Hero = () => {
         <figure>
           <div className="hero-3d-layout">
             <img src={JayveerImage} alt="" id="hero-my-image" />
-            <HeroExperience />
           </div>
         </figure>
       </div>

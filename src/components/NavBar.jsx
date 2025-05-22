@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-
+import { useState, useEffect, useRef } from "react";
+import GlowCard from "../components/GlowCard";
 import { navLinks } from "../constants";
 
 const NavBar = () => {
@@ -22,6 +22,33 @@ const NavBar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+
+
+
+
+  const [open, setOpen] = useState(false);
+  const dropdownRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  const handleScroll = () => {
+    const section = document.getElementById('contact');
+    if (section) section.scrollIntoView({ behavior: 'smooth' });
+    setOpen(false);
+  };
+
+  const handleLinktree = () => {
+    window.open('https://linktr.ee/yourusername', '_blank');
+    setOpen(false);
+  };
   return (
     <header className={`navbar ${scrolled ? "scrolled" : "not-scrolled"}`}>
       <div className="inner">
@@ -42,13 +69,48 @@ const NavBar = () => {
           </ul>
         </nav>
 
-        <a href="#contact" className="contact-btn group">
-          <div className="inner">
-            <span>Contact me</span>
-          </div>
-        </a>
+
+        <div ref={dropdownRef} style={{ position: 'relative', display: 'inline-block' }}>
+          <a href="#" className="contact-btn group" onClick={() => setOpen(!open)}>
+            <div className="inner">
+              <span>Contact me</span>
+            </div>
+          </a>
+
+          {open && (
+            <div
+              style={{
+                marginTop: '2px',
+                position: 'absolute',
+                top: '100%',
+                left: 0,
+                backgroundColor: 'black',
+                border: '1px solid #ddd',
+                borderRadius: '6px',
+                zIndex: 1000,
+                minWidth: '130px'
+              }}
+            >
+              <a href="#contact">
+                <button onClick={handleScroll} style={{ padding: '10px', cursor: 'pointer', borderBottom: '1px solid #eee', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                  Contact Form
+                </button>
+              </a>
+
+              <a href="https://linktr.ee/jayveersingh1" target="_blank">
+                <button onClick={handleLinktree} style={{ padding: '10px', cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                  Visit Linktree
+                </button>
+              </a>
+
+           
+            </div>
+            
+          )}
       </div>
-    </header>
+
+    </div>
+    </header >
   );
 }
 

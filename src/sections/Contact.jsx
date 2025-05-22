@@ -63,8 +63,7 @@ const Contact = () => {
           sub="💬 Have questions or ideas? Let’s talk! 🚀"
         />
       </div>
-
-      <div className="contact" ref={ref} onSubmit={sendEmail}>
+      <div className="contact" ref={ref} onSubmit={sendEmail} id="contact">
         <div className="cSection">
           <motion.form
             ref={form}
