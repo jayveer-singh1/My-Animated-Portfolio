@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import GlowCard from "../components/GlowCard";
 import { navLinks } from "../constants";
 
 const NavBar = () => {
