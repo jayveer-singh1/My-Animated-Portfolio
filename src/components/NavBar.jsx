@@ -70,7 +70,7 @@ const NavBar = () => {
 
 
         <div ref={dropdownRef} style={{ position: 'relative', display: 'inline-block' }}>
-          <a href="#" className="contact-btn group" onClick={() => setOpen(!open)}>
+          <a href="###" className="contact-btn group" onClick={() => setOpen(!open)}>
             <div className="inner">
               <span>Contact Me</span>
             </div>
