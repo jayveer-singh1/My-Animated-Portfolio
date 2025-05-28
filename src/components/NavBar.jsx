@@ -72,7 +72,7 @@ const NavBar = () => {
         <div ref={dropdownRef} style={{ position: 'relative', display: 'inline-block' }}>
           <a href="#" className="contact-btn group" onClick={() => setOpen(!open)}>
             <div className="inner">
-              <span>Contact me</span>
+              <span>Contact Me</span>
             </div>
           </a>
 
@@ -96,7 +96,7 @@ const NavBar = () => {
                 </button>
               </a>
 
-              <a href="https://linktr.ee/jayveersingh1" target="_blank">
+              <a href="https://linktr.ee/jayveersingh1?fbclid=PAQ0xDSwKcPglleHRuA2FlbQIxMQABp3UdZG8hrSGope4HmKRjdpecPgpudWMawC2jJTxdEURY_nCbWl6Bzkk-RBXV_aem_LZBHai1CBDjuR0LgZ3gfiA" target="_blank">
                 <button onClick={handleLinktree} style={{ padding: '10px', cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                   Visit Linktree
                 </button>
