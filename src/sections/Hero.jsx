@@ -67,7 +67,7 @@ const Hero = () => {
         {/* RIGHT: 3D Model or Visual */}
         <figure>
           <div className="hero-3d-layout">
-            <img src={JayveerImage} alt="" id="her-my-image" />
+            <img src={JayveerImage} alt="" id="hero-my-image" />
           </div>
         </figure>
       </div>
