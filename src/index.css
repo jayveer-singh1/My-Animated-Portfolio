@@ -342,7 +342,6 @@ section {
   display: inline-block;
   flex-direction: column;
   transition: all cubic-bezier(0.71, 0.03, 0.34, 1);
-  width: max-content;
 }
 
 .wrapper {
@@ -640,7 +639,6 @@ label {
     scale: 0.9;
   }
 }
-
 @media (max-width: 431px) {
   #hero-my-image {
     @apply absolute z-20;
@@ -651,7 +649,6 @@ label {
     scale: 0.9;
   }
 }
-
 @media (max-width: 426px) {
   #hero-my-image {
     @apply absolute z-20;
@@ -662,7 +659,6 @@ label {
     scale: 0.9;
   }
 }
-
 @media (max-width: 415px) {
   #hero-my-image {
     @apply absolute z-20;
@@ -673,7 +669,6 @@ label {
     scale: 0.9;
   }
 }
-
 @media (max-width: 391px) {
   #hero-my-image {
     @apply absolute z-20;
@@ -695,7 +690,6 @@ label {
     scale: 0.9;
   }
 }
-
 @media (max-width: 361px) {
   #hero-my-image {
     @apply absolute z-20;
