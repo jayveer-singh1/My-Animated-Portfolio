@@ -54,6 +54,7 @@ const AppShowcase = () => {
     <br />
     <br />
     <br />
+    <br />
       <TitleHeader
         title="Real-World Projects & My Technical Role"
         sub="🤝 What I Bring to Projects"
