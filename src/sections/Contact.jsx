@@ -57,7 +57,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="w-full h-full md:px-10 px-5 mt-36">
+      <div className="w-full h-full md:px-10 px-1 mt-36">
         <TitleHeader
           title="Get in Touch – Let’s Connect"
           sub="💬 Have questions or ideas? Let’s talk! 🚀"

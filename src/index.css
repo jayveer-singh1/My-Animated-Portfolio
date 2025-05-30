@@ -286,11 +286,12 @@ section {
   }
 
   .tech-grid {
-    @apply grid xl:grid-cols-5 md:grid-cols-3 grid-cols-1 xl:gap-16 md:gap-10 gap-5 mt-16;
+    @apply grid xl:grid-cols-4 md:grid-cols-3 grid-cols-1 xl:gap-16 md:gap-10 gap-5 mt-16;
   }
 
+
   .tech-icon-wrapper {
-    @apply flex justify-center items-center w-52 h-60 relative;
+    @apply flex justify-center items-center w-52 h-60 relative justify-items-center;
   }
 
   form {
@@ -510,7 +511,7 @@ section {
 .cSection {
   width: 50%;
   height: 100%;
-  padding: 20px;
+  /* padding: 20px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -639,6 +640,7 @@ label {
     scale: 0.9;
   }
 }
+
 @media (max-width: 431px) {
   #hero-my-image {
     @apply absolute z-20;
@@ -649,6 +651,7 @@ label {
     scale: 0.9;
   }
 }
+
 @media (max-width: 426px) {
   #hero-my-image {
     @apply absolute z-20;
@@ -659,6 +662,7 @@ label {
     scale: 0.9;
   }
 }
+
 @media (max-width: 415px) {
   #hero-my-image {
     @apply absolute z-20;
@@ -669,6 +673,7 @@ label {
     scale: 0.9;
   }
 }
+
 @media (max-width: 391px) {
   #hero-my-image {
     @apply absolute z-20;
@@ -690,6 +695,7 @@ label {
     scale: 0.9;
   }
 }
+
 @media (max-width: 361px) {
   #hero-my-image {
     @apply absolute z-20;

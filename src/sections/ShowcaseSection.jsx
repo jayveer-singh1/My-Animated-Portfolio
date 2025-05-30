@@ -54,10 +54,9 @@ const AppShowcase = () => {
     <br />
     <br />
     <br />
-    <br />
       <TitleHeader
-        title="How I Can Contribute & My Key Skills"
-        sub="🤝 What I Bring to the Table"
+        title="Real-World Projects & My Technical Role"
+        sub="🤝 What I Bring to Projects"
       />
       <div id="work" ref={sectionRef} className="app-showcase">
 
