@@ -8,6 +8,9 @@ const Footer = () => {
       <div className="footer-container">
         <div className="flex flex-col justify-center">
           <p>Terms & Conditions</p>
+          <p>&#9993; jayveersinghrawat93512@gmail.com</p>
+          <p>&#128222; +91 9079680620</p>
+          <p>&#128205; Borimada, Pali, Rajasthan, India (Pin Code:- 306023)</p>
         </div>
         <div className="socials">
           {socialImgs.map((socialImg, index) => (
