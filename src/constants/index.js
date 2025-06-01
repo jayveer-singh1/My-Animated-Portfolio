@@ -37,8 +37,8 @@ const techStackImgs = [
     imgPath: "/images/logos/react.png",
   },
   {
-    name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
+    name: "Front-End Animation Developer",
+    imgPath: "/images/logos/framer-motion.png",
   },
   {
     name: "Interactive Developer",
@@ -90,7 +90,7 @@ const expCards = [
     ],
   },
   {
-    review: "Jayveer Singh’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review: "Jayveer Singh’s contributions to web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
     imgPath: "/images/exp2.png",
     title: "Full Stack Developer",
     date: "May 2024 - December 2024",
@@ -133,6 +133,11 @@ const socialImgs = [
     name: "linkedin",
     imgPath: "/images/linkedin.png",
     Href: "https://www.linkedin.com/in/jayveer-singh1/"
+  },
+   {
+    name: "github",
+    imgPath: "/images/github.png",
+    Href: "https://github.com/jayveer-singh1"
   },
 ];
 

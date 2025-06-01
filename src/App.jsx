@@ -5,13 +5,11 @@ import Hero from "./sections/Hero";
 import ShowcaseSection from "./sections/ShowcaseSection";
 import Navbar from "./components/NavBar";
 import TechStack from "./sections/TechStack";
-import Demo from "./sections/Demo";
 
 const App = () => (
   <>
     <Navbar />
-    <Demo />
-    {/* <Hero /> */}
+    <Hero />
     <ShowcaseSection />
     <Experience />
     <TechStack />
