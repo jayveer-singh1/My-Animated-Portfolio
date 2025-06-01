@@ -101,10 +101,6 @@ section {
     @apply bg-black-200 py-2 px-4 rounded-full w-fit text-sm md:text-base text-nowrap;
   }
 
-  .hero-3d-layout {
-    @apply xl:w-[70%] w-full h-full min-h-[50vh] absolute xl:-top-20 top-24 xl:-right-20 right-0;
-  }
-
   #hero-my-image {
     margin-right: 4%;
     width: 550px;
@@ -614,6 +610,78 @@ label {
     height: 300px;
     top: 450px;
     right: 200px;
+    scale: 0.9;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-my-image {
+    @apply absolute z-20;
+    margin-top: 15%;
+    width: 300px;
+    height: 300px;
+    top: 180px;
+    right: 190px;
+    scale: 0.9;
+  }
+}
+
+@media (max-width: 652px) {
+  #hero-my-image {
+    @apply absolute z-20;
+    margin-top: 15%;
+    width: 300px;
+    height: 300px;
+    top: 190px;
+    right: 130px;
+    scale: 0.9;
+  }
+}
+
+@media (max-width: 612px) {
+  #hero-my-image {
+    @apply absolute z-20;
+    margin-top: 15%;
+    width: 300px;
+    height: 300px;
+    top: 210px;
+    right: 130px;
+    scale: 0.9;
+  }
+}
+
+@media (max-width: 606px) {
+  #hero-my-image {
+    @apply absolute z-20;
+    margin-top: 15%;
+    width: 300px;
+    height: 300px;
+    top: 210px;
+    right: 130px;
+    scale: 0.9;
+  }
+}
+
+@media (max-width: 600px) {
+  #hero-my-image {
+    @apply absolute z-20;
+    margin-top: 15%;
+    width: 300px;
+    height: 300px;
+    top: 210px;
+    right: 130px;
+    scale: 0.9;
+  }
+}
+
+@media (max-width: 550px) {
+  #hero-my-image {
+    @apply absolute z-20;
+    margin-top: 15%;
+    width: 300px;
+    height: 300px;
+    top: 220px;
+    right: 110px;
     scale: 0.9;
   }
 }
