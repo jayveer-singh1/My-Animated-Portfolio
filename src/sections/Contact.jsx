@@ -56,14 +56,14 @@ const Contact = () => {
   const isInView = useInView(ref, { margin: "-200px" });
 
   return (
-    <>
+    <div id="contact">
       <div className="w-full h-full md:px-0 px-1 mt-36">
         <TitleHeader
           title="Get in Touch – Let’s Connect"
           sub="💬 Have questions or ideas? Let’s talk! 🚀"
         />
       </div>
-      <div className="contact" ref={ref} onSubmit={sendEmail} id="contact">
+      <div className="contact" ref={ref} onSubmit={sendEmail}>
         <div className="cSection">
           <motion.form
             ref={form}
@@ -108,7 +108,7 @@ const Contact = () => {
         </div>
         <div className="cSection"><ContactSvg /></div>
       </div>
-    </>
+    </div>
 
   );
 };
