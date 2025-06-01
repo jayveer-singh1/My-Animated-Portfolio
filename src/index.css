@@ -632,6 +632,28 @@ label {
   }
 }
 
+@media (max-width: 471px) {
+  #hero-my-image {
+    @apply absolute z-20;
+    margin-top: 18%;
+    width: 300px;
+    height: 300px;
+    top: 218px;
+    right: 20px;
+    scale: 0.9;
+  }
+}
+@media (max-width: 457px) {
+  #hero-my-image {
+    @apply absolute z-20;
+    margin-top: 10%;
+    width: 300px;
+    height: 300px;
+    top: 218px;
+    right: 20px;
+    scale: 0.9;
+  }
+}
 
 @media (max-width: 431px) {
   #hero-my-image {
@@ -649,15 +671,15 @@ label {
   #hero-my-image {
     @apply absolute z-20;
     margin-top: 15%;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     top: 240px;
     right: 70px;
     scale: 0.9;
   }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 456px) {
   #hero-my-image {
     @apply absolute z-20;
     margin-top: -3%;
@@ -685,8 +707,8 @@ label {
   #hero-my-image {
     @apply absolute z-20;
     margin-top: 18%;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     top: 250px;
     right: 60px;
     scale: 0.9;
@@ -696,9 +718,9 @@ label {
 @media (max-width: 361px) {
   #hero-my-image {
     @apply absolute z-20;
-    margin-top: 15%;
-    width: 250px;
-    height: 250px;
+    margin-top: 8%;
+    width: 300px;
+    height: 300px;
     top: 300px;
     right: 50px;
     scale: 0.9;
@@ -709,8 +731,8 @@ label {
   #hero-my-image {
     @apply absolute z-20;
     margin-top: 15%;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     top: 300px;
     right: 60px;
     scale: 0.9;
