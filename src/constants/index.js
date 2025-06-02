@@ -97,7 +97,7 @@ const expCards = [
     responsibilities: [
       "Led the development of backend web applications, focusing on scalability.",
       "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the backend ecosystem.",
+      "Contributed to projects that were used with the backend ecosystem.",
     ],
   },
 ];

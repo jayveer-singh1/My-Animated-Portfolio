@@ -8,7 +8,7 @@ gsap.ticker.lagSmoothing(1000, 16);
 
 gsap.registerPlugin(ScrollTrigger);
 
-const AppShowcase = () => {
+const ShowcaseSection1 = () => {
   const sectionRef = useRef(null);
   const rydeRef = useRef(null);
   const libraryRef = useRef(null);
@@ -48,60 +48,68 @@ const AppShowcase = () => {
 
   return (
     <>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <TitleHeader
         title="Real-World Projects & My Technical Role"
         sub="🤝 What I Bring to Projects"
       />
+      <br />
+      <br />
+      <br />
+      <br />
       <div id="work" ref={sectionRef} className="app-showcase">
 
         <div className="w-full">
           <div className="showcaselayout">
             <div ref={rydeRef} className="first-project-wrapper">
-              <div className="image-wrapper">
-                <img src="/images/project1.png" alt="Ryde App Interface" />
-              </div>
+              <a href="https://job-portal-client-brown-three.vercel.app/" target="_blank">
+                <div className="image-wrapper">
+                  <img src="/images/project1.avif" alt="Job POrtal webapp Interface" />
+                </div>
+              </a>
               <div className="text-content">
                 <h2>
-                  On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                  called Ryde
+                  Job Search Made Simple with a Powerful, User-Friendly Web Application called Insiderjobs.
                 </h2>
                 <p className="text-white-50 md:text-xl">
-                  An app built with React Native, Expo, & TailwindCSS for a fast,
-                  user-friendly experience.
+                  A BCA final year project built with the MERN stack for a fast, user-friendly experience.
                 </p>
               </div>
             </div>
 
             <div className="project-list-wrapper overflow-hidden">
               <div className="project" ref={libraryRef}>
-                <div className="image-wrapper bg-[#FFEFDB]">
-                  <img
-                    src="/images/project2.png"
-                    alt="Library Management Platform"
-                  />
-                </div>
-                <h2>The Library Management Platform</h2>
+                <a href="https://eductional-website-by-jayveer.vercel.app/" target='_blank'>
+                  <div className="image-wrapper bg-[#FFEFDB]">
+                    <img
+                      src="/images/project2.png"
+                      alt="Library Management Platform"
+                    />
+                  </div>
+                </a>
+                <h2>Edusity - The Education Website Platform</h2>
               </div>
-
               <div className="project" ref={ycDirectoryRef}>
-                <div className="image-wrapper bg-[#FFE7EB]">
-                  <img src="/images/project3.png" alt="YC Directory App" />
-                </div>
-                <h2>YC Directory - A Startup Showcase App</h2>
+                <a href="https://grilli-master-jayveer.vercel.app/" target="_blank">
+                  <div className="image-wrapper bg-[#FFE7EB]">
+                    <img src="/images/project3.png" alt="YC Directory App" />
+                  </div>
+                </a>
+                <h2>Grilli - A Restaurant Startup</h2>
               </div>
             </div>
           </div>
         </div>
+
       </div>
     </>
   );
 };
 
-export default AppShowcase;
+export default ShowcaseSection1;
