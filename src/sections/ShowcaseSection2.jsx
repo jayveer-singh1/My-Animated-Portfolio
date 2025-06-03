@@ -64,12 +64,12 @@ const ShowcaseSection2 = () => {
                 <h2>Foodie-Master - A Restaurant Food Ordering Web App</h2>
               </div>
               <div className="project" ref={ycDirectoryRef}>
-                <a href="https://grilli-master-jayveer.vercel.app/" target="_blank">
+                <a href="https://3d-portfolio-jayveer.vercel.app/" target="_blank">
                   <div className="image-wrapper bg-[#FFE7EB]">
-                    <img src="/images/project3.png" alt="YC Directory App" />
+                    <img src="/images/project5.png" alt="YC Directory App" />
                   </div>
                 </a>
-                <h2>Grilli - A Restaurant Startup</h2>
+                <h2>3D Portfolio – Creative, Interactive, Immersive</h2>
               </div>
             </div>
 
