@@ -70,7 +70,7 @@ const ShowcaseSection1 = () => {
             <div ref={rydeRef} className="first-project-wrapper">
               <a href="https://job-portal-client-brown-three.vercel.app/" target="_blank">
                 <div className="image-wrapper">
-                  <img src="/images/project1.avif" alt="Job POrtal webapp Interface" />
+                  <img src="/images/project1.avif" alt="Job Portal web app Interface" />
                 </div>
               </a>
               <div className="text-content">
@@ -89,7 +89,7 @@ const ShowcaseSection1 = () => {
                   <div className="image-wrapper bg-[#FFEFDB]">
                     <img
                       src="/images/project2.png"
-                      alt="Library Management Platform"
+                      alt="Edusity"
                     />
                   </div>
                 </a>
@@ -98,7 +98,7 @@ const ShowcaseSection1 = () => {
               <div className="project" ref={ycDirectoryRef}>
                 <a href="https://grilli-master-jayveer.vercel.app/" target="_blank">
                   <div className="image-wrapper bg-[#FFE7EB]">
-                    <img src="/images/project3.png" alt="YC Directory App" />
+                    <img src="/images/project3.png" alt="Grilli" />
                   </div>
                 </a>
                 <h2>Grilli - A Restaurant Startup</h2>

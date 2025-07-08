@@ -53,20 +53,20 @@ const ShowcaseSection2 = () => {
 
             <div className="project-list-wrapper overflow-hidden">
               <div className="project" ref={libraryRef}>
-                <a href="https://foodie-master-jayveer.vercel.app/" target='_blank'>
+                <a href="https://gta-vi-jayveer-singh.vercel.app/" target='_blank'>
                   <div className="image-wrapper bg-[#FFEFDB]">
                     <img
-                      src="/images/project4.png"
-                      alt="Library Management Platform"
+                      src="/images/project6.png"
+                      alt="GTA VI"
                     />
                   </div>
                 </a>
-                <h2>Foodie-Master - A Restaurant Food Ordering Web App</h2>
+                <h2>GTA VI - Animation with Selfie Effect</h2>
               </div>
               <div className="project" ref={ycDirectoryRef}>
                 <a href="https://3d-portfolio-jayveer.vercel.app/" target="_blank">
                   <div className="image-wrapper bg-[#FFE7EB]">
-                    <img src="/images/project5.png" alt="YC Directory App" />
+                    <img src="/images/project5.png" alt="3D Portfolio" />
                   </div>
                 </a>
                 <h2>3D Portfolio – Creative, Interactive, Immersive</h2>
@@ -74,17 +74,17 @@ const ShowcaseSection2 = () => {
             </div>
 
             <div ref={rydeRef} className="first-project-wrapper">
-              <a href="https://job-portal-client-brown-three.vercel.app/" target="_blank">
+              <a href="https://foodie-master-jayveer.vercel.app/" target="_blank">
                 <div className="image-wrapper">
-                  <img src="/images/project1.avif" alt="Job POrtal webapp Interface" />
+                  <img src="/images/project4.png" alt=" Foodie-Master" />
                 </div>
               </a>
               <div className="text-content">
                 <h2>
-                  Job Search Made Simple with a Powerful, User-Friendly Web Application called Insiderjobs.
+                  Foodie-Master
                 </h2>
                 <p className="text-white-50 md:text-xl">
-                  A BCA final year project built with the MERN stack for a fast, user-friendly experience.
+                 A Restaurant Food Ordering Web Application developed and designed to provide a seamless, efficient, and user-friendly platform for browsing menus, placing orders, and managing restaurant services online.
                 </p>
               </div>
             </div>
