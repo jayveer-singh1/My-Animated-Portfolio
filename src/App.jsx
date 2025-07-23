@@ -6,6 +6,7 @@ import ShowcaseSection1 from "./sections/ShowcaseSection1";
 import Navbar from "./components/NavBar";
 import TechStack from "./sections/TechStack";
 import ShowcaseSection2 from "./sections/ShowcaseSection2";
+import ShowcaseSection3 from "./sections/ShowcaseSection3";
 
 const App = () => (
   <>
@@ -13,6 +14,7 @@ const App = () => (
     <Hero />
     <ShowcaseSection1 />
     <ShowcaseSection2 />
+    <ShowcaseSection3 />
     <Experience />
     <TechStack />
     <Contact />
