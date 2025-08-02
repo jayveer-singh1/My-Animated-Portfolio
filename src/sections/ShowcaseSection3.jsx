@@ -87,25 +87,25 @@ const ShowcaseSection3 = () => {
 
             <div className="project-list-wrapper overflow-hidden">
               <div className="project" ref={libraryRef}>
-                <a href="https://eductional-website-by-jayveer.vercel.app/" target='_blank'>
+                <a href="https://gametrax-jayveer.vercel.app/" target='_blank'>
                   <div className="image-wrapper bg-[#FFEFDB]">
                     <img
-                      src="/images/project2.png"
+                      src="/images/project9.png"
                       alt="Edusity"
                     />
                   </div>
                 </a>
-                <h2>Edusity - The Education Website Platform</h2>
+                <h2>Gametrax - An Animated Game Trailers Showcase Platform</h2>
                 <div className="mt-4 flex gap-4">
                   <button
                     className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-2 rounded-lg transition duration-300 ease-in-out shadow hover:shadow-lg"
-                    onClick={() => window.open("https://eductional-website-by-jayveer.vercel.app/", "_blank")}
+                    onClick={() => window.open("https://gametrax-jayveer.vercel.app/", "_blank")}
                   >
                     🚀 Live
                   </button>
                   <button
                     className="bg-gray-800 hover:bg-gray-900 text-white font-semibold px-6 py-2 rounded-lg transition duration-300 ease-in-out shadow hover:shadow-lg"
-                    onClick={() => window.open("https://github.com/jayveer-singh1/Eductional-Website.git", "_blank")}
+                    onClick={() => window.open("https://github.com/jayveer-singh1/Gametrax.git", "_blank")}
                   >
                     💻 Code
                   </button>

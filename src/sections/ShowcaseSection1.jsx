@@ -111,7 +111,7 @@ const ShowcaseSection1 = () => {
                     />
                   </div>
                 </a>
-                <h2>Edusity - The Education Website Platform</h2>
+                <h2>Edusity - The Education Platform</h2>
                 <div className="mt-4 flex gap-4">
                   <button
                     className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-2 rounded-lg transition duration-300 ease-in-out shadow hover:shadow-lg"
