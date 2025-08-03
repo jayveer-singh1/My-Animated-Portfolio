@@ -56,7 +56,7 @@ const ShowcaseSection3 = () => {
 
               <a href="https://food-delivery-web-app-jayveer.vercel.app/" target="_blank">
                 <div className="image-wrapper">
-                  <img src="/images/project8.png" alt="Job Portal web app Interface" />
+                  <img src="/images/project7.png" alt="Job Portal web app Interface" />
                 </div>
               </a>
 
@@ -90,7 +90,7 @@ const ShowcaseSection3 = () => {
                 <a href="https://gametrax-jayveer.vercel.app/" target='_blank'>
                   <div className="image-wrapper bg-[#FFEFDB]">
                     <img
-                      src="/images/project9.png"
+                      src="/images/project8.png"
                       alt="Edusity"
                     />
                   </div>
